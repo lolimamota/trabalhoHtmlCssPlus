@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@mixin H1($fontsize: clamp(3rem, 3vw, 4rem), $fontweight:400) {
+    font-size: $fontsize;
+    font-weight: $fontweight;
+};
+
+@mixin H2($fontsize: clamp(1rem, 3vw, 2rem), $fontweight:300) {
+    font-size: $fontsize;
+    font-weight: $fontweight;
+};
+
+@mixin Texts($fontsize: clamp(1.3rem, 3vw, 1.5rem), $fontweight:100) {
+    font-size: $fontsize;
+    font-weight: $fontweight;
+};
