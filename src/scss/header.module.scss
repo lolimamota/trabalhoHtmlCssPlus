@@ -1,0 +1,47 @@
+@use '@patterns/mixins.modules.scss' as mixins;
+
+.classHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+
+    h1{
+        color: mixins.$white;
+        text-shadow: 
+        0 0 5px mixins.$titleColor,   /* Brilho interno mais concentrado */
+        0 0 10px mixins.$titleColor,  /* Brilho intermediário */
+        0 0 20px mixins.$titleColor,  /* Brilho expandido */
+        0 0 40px mixins.$titleColor;  /* Halo externo suave */
+        @include mixins.H1;
+    }
+    nav{
+        width: 50%;
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: mixins.$detailsColor;
+        text-shadow: 
+        0 0 5px mixins.$detailsColor,   /* Brilho interno mais concentrado */
+        0 0 10px mixins.$detailsColor,  /* Brilho intermediário */
+        0 0 20px mixins.$detailsColor,  /* Brilho expandido */
+        0 0 40px mixins.$detailsColor;  /* Halo externo suave */
+    }
+}
+
+.classHR{
+    width: 80%;
+    height: .5rem;
+    background-color: mixins.$extraColor;
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 
+    0 0 5px mixins.$extraColor,   /* Brilho interno mais concentrado */
+    0 0 10px mixins.$extraColor,  /* Brilho intermediário */
+    0 0 20px mixins.$extraColor,  /* Brilho expandido */
+    0 0 40px mixins.$extraColor;  /* Halo externo suave */
+}
