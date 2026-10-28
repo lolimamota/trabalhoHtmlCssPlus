@@ -1,7 +1,6 @@
 @use '@patterns/mixins.modules.scss' as mixins;
 
 .sectionSobre{
-    border: solid red;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -20,7 +19,6 @@
 }
 
 .divSobre{
-    border: solid blue;
     width: 50%;
 
     p{
