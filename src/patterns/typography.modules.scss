@@ -14,6 +14,6 @@
     font-size: $fontsize;
 };
 
-@mixin Texts($fontsize: clamp(1.3rem, 3vw, 1.5rem)) {
+@mixin Texts($fontsize: clamp(1.5rem, 3vw, 2rem)) {
     font-size: $fontsize;
 };
