@@ -1,0 +1,23 @@
+@use '@patterns/mixins.modules.scss' as mixins;
+
+.sectionSobre{
+    border: solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img{
+        width: 30%;
+    }
+}
+
+.divSobre{
+    border: solid blue;
+    width: 50%;
+
+    p{
+        padding: 2rem;
+    }
+
+    @include mixins.Texts;
+}

@@ -1,5 +1,6 @@
 //importação de estilos
 import '@scss/global.scss';
+import * as S from '@scss/main.module.scss';
 
 // importação de imagens
 import perfil from '@assets/perfil.jpg';
@@ -13,9 +14,10 @@ import livros from '@assets/livros.png';
 function Main(){
     return(
         <main>
-            <section>
+            <section className={S.sectionSobre}>
                 <img src={perfil} alt="sou uma mulher negra, nessa foto estou usando um vestido preto com tule, uso óculos e estou maquiada com batom vermelho e cabelo solto cacheado." />
-                <p>
+                <div className={S.divSobre}>
+                    <p>
                     Me chamo Lorrayne, sou mineira mas não sou muito chegada em café, mas amando programação! Atualmente, estou cursando análise e desenvolvimento de sistemas na Puc Minas, mas meus estudos vem de longa data...
                 </p>
                 <p>
@@ -24,6 +26,7 @@ function Main(){
                 <p>
                     Além da programação me divirto entre musicas e animes ou talvez tomando uma geladinha com quem amo! Minha banda favorita é o Bring me The Horizon e ainda não decidi se sou atleticana ou cruzeirense rsrsrs
                 </p>
+                </div>
             </section>
             <section>
                 <ul>
