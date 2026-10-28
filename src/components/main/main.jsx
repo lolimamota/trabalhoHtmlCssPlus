@@ -1,3 +1,6 @@
+//importação de estilos
+import '@scss/global.scss';
+
 // importação de imagens
 import perfil from '@assets/perfil.jpg';
 import fantastika from '@assets/fantastika.png';

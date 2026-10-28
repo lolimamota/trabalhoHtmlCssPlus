@@ -1,4 +1,5 @@
 // import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import '@scss/global.scss';
 
 function Header(){
     return(
@@ -11,6 +12,7 @@ function Header(){
                 <li>Contato</li>
             </ul>
         </nav>
+        <hr/>
     </header>
     )
 }

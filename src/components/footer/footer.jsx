@@ -1,3 +1,5 @@
+import '@scss/global.scss';
+
 function Footer(){
     return(
         <footer>
