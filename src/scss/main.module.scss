@@ -1,29 +1,59 @@
 @use '@patterns/mixins.modules.scss' as mixins;
 
-.sectionSobre{
+.sectionSobre {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 2.5rem;
 
-    img{
+    img {
         width: 30%;
         border-radius: 10px;
-        box-shadow: 
-        0 0 5px mixins.$bgColor,   /* Brilho interno mais concentrado */
-        0 0 10px mixins.$bgColor,  /* Brilho intermediário */
-        0 0 20px mixins.$bgColor,  /* Brilho expandido */
-        0 0 40px mixins.$bgColor;  /* Halo externo suave */
+        box-shadow:
+            0 0 5px mixins.$bgColor,
+            /* Brilho interno mais concentrado */
+            0 0 10px mixins.$bgColor,
+            /* Brilho intermediário */
+            0 0 20px mixins.$bgColor,
+            /* Brilho expandido */
+            0 0 40px mixins.$bgColor;
+        /* Halo externo suave */
         ;
     }
 }
 
-.divSobre{
+.divSobre {
     width: 50%;
 
-    p{
+    p {
         padding: 2rem;
     }
 
     @include mixins.Texts;
+}
+
+.containerUL{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.containerUL img{
+    width: 100%;
+    aspect-ratio:4/3;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 
+    0 0 2.5px mixins.$extraColor,   /* Brilho interno mais concentrado */
+    0 0 5px mixins.$extraColor,  /* Brilho intermediário */
+    0 0 10px mixins.$extraColor,  /* Brilho expandido */
+    0 0 15px mixins.$extraColor;  /* Halo externo suave */
+}
+
+li{
+    text-align: center;
+    color: mixins.$textColor;
 }

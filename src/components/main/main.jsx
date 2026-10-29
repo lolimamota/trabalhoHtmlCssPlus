@@ -29,30 +29,30 @@ function Main(){
                 </div>
             </section>
             <section>
-                <ul>
+                <ul className={S.containerUL}>
                     <li>
-                        <h2>Fantastika</h2>
                         <img src={fantastika} alt="" />
+                        <h2>Fantastika</h2>
                     </li>
                     <li>
-                        <h2>Portfólio tentativa 1/10000</h2>
                         <img src={portfolio} alt="" />
+                        <h2>Portfólio tentativa 1/10000</h2>
                     </li>
                     <li>
-                        <h2>Cartoon Network</h2>
                         <img src={cartoon} alt="" />
+                        <h2>Cartoon Network</h2>
                     </li>
                     <li>
-                        <h2>Desafio Outubro Rosa</h2>
                         <img src={outubro} alt="" />
+                        <h2>Desafio Outubro Rosa</h2>
                     </li>
                     <li>
-                        <h2>The Witcher</h2>
                         <img src={witcher} alt="" />
+                        <h2>The Witcher</h2>
                     </li>
                     <li>
-                        <h2>Doação de Livros</h2>
                         <img src={livros} alt="" />
+                        <h2>Doação de Livros</h2>
                     </li>
                 </ul>
             </section>
