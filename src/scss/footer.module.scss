@@ -1,0 +1,19 @@
+@use '@patterns/mixins.modules.scss' as mixins;
+
+footer{
+    text-align: center;
+
+    .classHR{
+    width: 80%;
+    height: .2rem;
+    background-color: mixins.$extraColor;
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 
+    0 0 5px mixins.$extraColor,   /* Brilho interno mais concentrado */
+    0 0 10px mixins.$extraColor,  /* Brilho intermediário */
+    0 0 20px mixins.$extraColor,  /* Brilho expandido */
+    0 0 40px mixins.$extraColor;  /* Halo externo suave */
+}
+}

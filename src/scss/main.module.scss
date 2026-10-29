@@ -10,14 +10,10 @@
         width: 30%;
         border-radius: 10px;
         box-shadow:
-            0 0 5px mixins.$bgColor,
-            /* Brilho interno mais concentrado */
-            0 0 10px mixins.$bgColor,
-            /* Brilho intermediário */
-            0 0 20px mixins.$bgColor,
-            /* Brilho expandido */
-            0 0 40px mixins.$bgColor;
-        /* Halo externo suave */
+            0 0 5px mixins.$bgColor, /* Brilho interno mais concentrado */
+            0 0 10px mixins.$bgColor, /* Brilho intermediário */
+            0 0 20px mixins.$bgColor, /* Brilho expandido */
+            0 0 40px mixins.$bgColor; /* Halo externo suave */
         ;
     }
 }
